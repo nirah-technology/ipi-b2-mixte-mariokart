@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS races (
+    id VARCHAR(32) PRIMARY KEY,
+    name VARCHAR(64) NOT NULL,
+    laps_number INTEGER NOT NULL,
+    route TEXT NOT NULL
+);

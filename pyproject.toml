@@ -1,0 +1,22 @@
+[project]
+name = "ipi-b2-mixte-mariokart"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nicolas Metivier",email = "nicolas.a.metivier@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "ipi_b2_mixte_mariokart", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+game = "ipi_b2_mixte_mariokart.main:main"

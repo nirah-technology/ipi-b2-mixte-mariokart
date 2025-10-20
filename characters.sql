@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS characters (
+    id VARCHAR(32) PRIMARY KEY,
+    name VARCHAR(64) NOT NULL,
+    weight INTEGER NOT NULL
+)
